@@ -27,7 +27,7 @@ public class MainActivity extends Activity implements SensorEventListener {
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.main);
+		setContentView(R.layout.activity_main);
 
 		tvAX = (TextView)findViewById(R.id.tvAX);
 		tvAY = (TextView)findViewById(R.id.tvAY);
